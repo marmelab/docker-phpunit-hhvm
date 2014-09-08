@@ -18,3 +18,5 @@ RUN echo "date.timezone = Europe/Paris" >> /etc/hhvm/php.ini
 RUN wget -O /usr/local/bin/phpunit -q https://phar.phpunit.de/phpunit.phar
 
 WORKDIR /srv
+
+ENTRYPOINT ["hhvm", "/usr/local/bin/phpunit"]
