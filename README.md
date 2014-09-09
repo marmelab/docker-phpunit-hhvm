@@ -9,4 +9,4 @@ So instead of running
 
 You can run 
 
-    $ docker run -ti -v `pwd`:/srv marmelab/phpunit-hhvm bash -c 'hhvm /usr/local/bin/phpunit'
+    $ docker run -ti -v `pwd`:/srv marmelab/phpunit-hhvm
